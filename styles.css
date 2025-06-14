@@ -1,0 +1,104 @@
+:root {
+  /* Color Palette */
+  --primary-color: #264653;
+  --secondary-color: #2A9D8F;
+  --accent1-color: #F4A261;
+  --accent2-color: #E9C46A;
+
+  /* Fonts */
+  --heading-font: 'Bebas Neue', sans-serif;
+  --text-font: 'Open Sans', sans-serif;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--text-font);
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: var(--heading-font);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: var(--accent1-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: var(--heading-font);
+}
+
+.btn:hover {
+  background-color: var(--accent2-color);
+}
+
+.about {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
